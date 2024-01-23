@@ -6,6 +6,7 @@ fetch(jsonUrl)
     .then(data => {
         // Data is now a JavaScript object
         console.log(data);
+        document.getElementById("title").innerHTML = data.title;
     })
     .catch(error => {
         console.error('Error fetching JSON: ', error);
