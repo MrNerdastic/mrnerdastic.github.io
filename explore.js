@@ -1,5 +1,5 @@
 // URL to your JSON file or API endpoint
-var jsonUrl = 'https://example.com/api/data';
+var jsonUrl = 'books.json';
 
 // Fetch the JSON data
 fetch(jsonUrl)
