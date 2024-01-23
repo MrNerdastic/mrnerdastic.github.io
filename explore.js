@@ -1,4 +1,3 @@
-// URL to your JSON file or API endpoint
 var jsonUrl = 'books.json';
 
 // Fetch the JSON data
@@ -12,6 +11,9 @@ fetch(jsonUrl)
         console.error('Error fetching JSON: ', error);
     });
 
+function update_values() {
+    document.getElementById("title").innerHTML = data.title;
+}
 
 function test() {
     document.getElementById("title").innerHTML = "Hello JavaScript!";
